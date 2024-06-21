@@ -511,20 +511,20 @@ overflow-x: hidden;
           
             }            
 
-            .navigation {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                width: 92px; 
-                height: 40px;
-                gap: 12px;
-                opacity: 1; 
-                margin-top: 35px;
-                margin-bottom: 30px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
+      .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92px; 
+    height: 40px;
+    gap: 12px;
+    opacity: 1; 
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
         
             .left-round {
                 width: 40px;
@@ -1010,15 +1010,7 @@ height: auto;
         
         }
         
-        .image-one{
-            max-width: 100%;
-    width: 100%;
-height: 260.32px;
-gap: 0px;
- opacity: 1;;
-        
-        
-        }
+
        
 .insight-card-one-background{
     width: 100%;
@@ -1092,8 +1084,17 @@ color: #616161;
 margin-top: 25px;
 
     }
+    .image-one{
+        max-width: 100%;
+width: 100%;
+height: 260.32px;
+gap: 0px;
+opacity: 1;;
+    
+    
+    }
     .insight-image-one{
-        max-width: 78%;
+        max-width: 80%;
         height: 100%;
     top: 36.02px;
     left: 36px;
@@ -1193,3 +1194,40 @@ margin-top: 25px;
 
 }
 
+@media (min-width: 768px) and (max-width: 819px) {
+   
+.image-one{
+    max-width: 100%;
+    width: 100%;
+height: 260.32px;
+gap: 0px;
+ opacity: 1;
+
+}
+
+
+
+    .insight-image-one{
+        max-width: 90%;
+        height: 100%;
+    top: 36.02px;
+    left: 36px;
+    gap: 0px;
+     opacity: 1;
+    background: url('/public/insight1.jpg') center no-repeat;
+    background-size: cover;
+    }
+
+    .insight-image-two{
+        max-width: 78%;
+        height: 100%;
+    top: 36.02px;
+    left: 36px;
+    gap: 0px;
+     opacity: 1;
+    background: url('/public/insight2.jpg') center no-repeat;
+    background-size: cover;
+    }
+   
+
+}
