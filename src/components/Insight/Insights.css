@@ -484,8 +484,8 @@ overflow-x: hidden;
 
         
         .blog{
-            width: 43px;
-            height: 25px;
+            width: 100%;
+            height: auto;
             gap: 0px;
              opacity: 1;
              font-family: 'Matter', sans-serif;
@@ -496,8 +496,9 @@ overflow-x: hidden;
             color: #0167FF;
             }
             .explore-insight{
-                width: 338px;
-            height: 58px;
+                width: 100%;
+ 
+            height: 100%;
             top: 33px;
             gap: 0px;
              opacity: 1; 
@@ -507,6 +508,7 @@ overflow-x: hidden;
             line-height: 57.5px;
             text-align: center;
             color: #272848;
+          
             }            
 
             .navigation {
@@ -519,9 +521,25 @@ overflow-x: hidden;
                 opacity: 1; 
                 margin-top: 35px;
                 margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
             }
+            
         
-            .left-round, .right-round {
+            .left-round {
+                width: 40px;
+                height: 40px;
+                border-radius: 1000px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #fff;
+                border: 1px solid #272848;
+                transition: background 0.3s, border 0.3s;
+                cursor: pointer;
+
+            }
+            .right-round {
                 width: 40px;
                 height: 40px;
                 border-radius: 1000px;
@@ -533,7 +551,6 @@ overflow-x: hidden;
                 transition: background 0.3s, border 0.3s;
                 cursor: pointer;
             }
-        
             .left-round:hover, .right-round:hover, 
             .left-round:active, .right-round:active {
                 background: #0167FF;
@@ -572,7 +589,7 @@ overflow-x: hidden;
             font-size: 36px;
             font-weight: 600;
             line-height: 57.5px;
-            text-align: left;
+            text-align: center;
             color: #272848;
             }
             
@@ -588,10 +605,27 @@ overflow-x: hidden;
                 font-size: 14px; 
                 font-weight: 400;
                 line-height: 1.5; 
-                text-align: left;
+                text-align: center;
                 color: #535353;
+                display: flex;
+                justify-content: center;
+           
                 
                 
+            }
+            .head-text{
+                width: 96px;
+            height: 10px;
+            gap: 0px;
+             opacity: 1;
+             font-family: 'Matter', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: left;
+            color: #0167FF;
+            /* margin-top: 10px; */
+            
             }
 
 .insight-card{
@@ -931,7 +965,20 @@ overflow-x: hidden;
             color: #535353;
         }
    
+        .head-text{
+            width: 96px;
+        height: 10px;
+        gap: 0px;
+         opacity: 1;
+         font-family: 'Matter', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+        color: #0167FF;
+        margin-top: 10px;
         
+        }
 
         .insight-card{
             width: 100%;
