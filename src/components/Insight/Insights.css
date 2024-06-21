@@ -321,7 +321,8 @@ margin-top: 30px;
      opacity: 1;
       border-radius: 50%;
 
-    background: url('../../../../gwa_projects/public/insightpersonone.png') no-repeat;
+    background: url('/public/insightpersonone.png') no-repeat;
+   
     background-size: 150% 150%;
     background-position: 130% top; 
 }
@@ -347,7 +348,7 @@ top: 36.02px;
 left: 36px;
 gap: 0px;
  opacity: 1;
-background: url('../../../../gwa_projects/public/insight1.jpg') center no-repeat;
+background: url('/public/insight1.jpg') center no-repeat;
 background-size: cover;
 }
 
@@ -418,7 +419,7 @@ border-radius: 50%;
      opacity: 1;
     border-radius: 50%;
 
-    background: url('../../../../gwa_projects/public/insightpersontwo.jpeg') no-repeat;
+    background: url('/public/insightpersontwo.jpeg') no-repeat;
     background-size: 230% 230%; 
     background-position: 35% top; 
 }
@@ -442,7 +443,7 @@ top: 36.02px;
 left: 36px;
 gap: 0px;
  opacity: 1;
-background: url('../../../../gwa_projects/public/insight2.jpg') center no-repeat ;
+background: url('/public/insight2.jpg') center no-repeat ;
 background-size: cover;
 }
 
@@ -710,7 +711,7 @@ margin-top: 25px;
     left: 36px;
     gap: 0px;
      opacity: 1;
-    background: url('../../../../gwa_projects/public/insight1.jpg') center no-repeat;
+    background: url('/public/insight1.jpg') center no-repeat;
     background-size: cover;
     }
 
@@ -721,7 +722,7 @@ margin-top: 25px;
     left: 36px;
     gap: 0px;
      opacity: 1;
-    background: url('../../../../gwa_projects/public/insight2.jpg') center no-repeat;
+    background: url('/public/insight2.jpg') center no-repeat;
     background-size: cover;
     }
     .text-box-person-two{
@@ -1051,7 +1052,7 @@ margin-top: 25px;
     left: 36px;
     gap: 0px;
      opacity: 1;
-    background: url('../../../../gwa_projects/public/insight1.jpg') center no-repeat;
+    background: url('/public/insight1.jpg') center no-repeat;
     background-size: cover;
     }
 
@@ -1062,7 +1063,7 @@ margin-top: 25px;
     left: 36px;
     gap: 0px;
      opacity: 1;
-    background: url('../../../../gwa_projects/public/insight2.jpg') center no-repeat;
+    background: url('/public/insight2.jpg') center no-repeat;
     background-size: cover;
     }
     .text-box-person-two{
