@@ -464,7 +464,7 @@ background-size: cover;
         justify-content: center;
         box-sizing: border-box; 
 overflow-x: hidden; 
-            padding: 120px 20px 119.02px 10px;
+            padding: 120px 20px 119.02px 2px;
     
 
 
@@ -740,7 +740,7 @@ margin-top: 25px;
 
     }
     .insight-image-one{
-        max-width: 78%;
+        max-width: 80%;
         height: 100%;
     top: 36.02px;
     left: 36px;
