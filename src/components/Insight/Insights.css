@@ -1,6 +1,7 @@
 .insight-background{
-    width: 100%;
+
     max-width: 1440px;
+    min-width: 100%;
     height: 853px;
     top: 3401px;
     padding: 120px 0px 119.02px 80px;
@@ -463,7 +464,7 @@ background-size: cover;
         justify-content: center;
         box-sizing: border-box; 
 overflow-x: hidden; 
-            padding: 120px 30px 119.02px 40px;
+            padding: 120px 20px 119.02px 10px;
     
 
 
@@ -624,7 +625,7 @@ overflow-x: hidden;
             line-height: 21px;
             text-align: left;
             color: #0167FF;
-            /* margin-top: 10px; */
+            margin-top: 15px;
             
             }
 
@@ -654,7 +655,7 @@ height: auto;
     justify-content: center;
 
     border: 1px solid #C3CFE0;
-    margin-right: 40px;
+
 
 
 }
@@ -715,7 +716,7 @@ top: 75px;
 gap: 0px;
  opacity: 1;
 font-family: 'Matter', sans-serif;
-font-size: 22px;
+font-size: 20px;
 font-weight: 500;
 line-height: 20px;
 text-align: left;
@@ -730,7 +731,7 @@ color: #000000;
     gap: 0px;
      opacity: 1;
     font-family: 'Matter', sans-serif;
-font-size: 16px;
+font-size: 14px;
 font-weight: 400;
 line-height: 25px;
 text-align: left;
@@ -765,7 +766,7 @@ margin-top: 25px;
     gap: 12px;
      opacity: 1;
     display: flex;
-    margin-top: 90px;
+        margin-top: 75px;
     
     }  
     .text-box-person-two-name{
@@ -834,7 +835,7 @@ margin-top: 25px;
         gap: 12px;
          opacity: 1;
         display: flex;
-        margin-top: 90px;
+        margin-top: 75px;
         
         }  
 
@@ -1219,7 +1220,7 @@ gap: 0px;
     }
 
     .insight-image-two{
-        max-width: 78%;
+        max-width: 90%;
         height: 100%;
     top: 36.02px;
     left: 36px;
@@ -1230,4 +1231,420 @@ gap: 0px;
     }
    
 
+}
+
+/* 2560px Screens */
+@media (min-width: 2560px) {
+    .insight-background {
+        height: 100%;
+        padding: 3% 0 3% 11%;
+
+        width: 100%;
+    }
+    .frame {
+        max-width: 552px;
+        height: 308px;
+        margin-top: 240px;
+        margin-right: 5%;
+    }
+    .blog {
+        width: 57px;
+        height: 33px;
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .explore-insight {
+        width: 452px;
+        height: 77px;
+        font-size: 48px;
+        line-height: 76px;
+    }
+    .insight-content {
+        width: 552px;
+        height: 48px;
+        font-size: 21px;
+        line-height: 33px;
+    }
+    .navigation {
+        width: 122px;
+        height: 53px;
+        margin-top: 47px;
+    }
+    .left-round, .right-round {
+        width: 53px;
+        height: 53px;
+    }
+    .insight-card {
+        width: 1376px;
+        height: 819px;
+    }
+
+    .insight-card-one, .insight-card-two {
+        width: 672px;
+        height: 818px;
+        margin-left: 27px;
+    }
+    .insight-card-one-inner, .insight-card-two-inner {
+        width: 576px;
+        height: 721px;
+        margin: 47px;
+    }
+
+    .insight-image-one, .insight-image-two {
+        width: 576px;
+        height: 325px;
+    }
+    .text-box-outter {
+        width: 576px;
+        height: 349px;
+margin-top: 18%;
+    }
+    .text-box-inner-head {
+        width: 128px;
+        height: 13px;
+    }
+    .head-text {
+        width: 128px;
+        height: 13px;
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .text-box-inner-date {
+        width: 300px;
+        height: 24px;
+        margin-top: 33px;
+    }
+    .text-box-inner-year, .text-box-inner-time {
+        width: 118px;
+        height: 28px;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .text-box-inner-ellipse {
+        width: 5px;
+        height: 5px;
+        margin-top: 11px;
+    }
+    .text-box-content {
+        width: 576px;
+        height: 169px;
+        margin-top: 20px;
+    }
+    .text-box-content-title {
+        width: 576px;
+        height: 58px;
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .text-box-content-sub-content {
+        width: 548px;
+        height: 80px;
+        font-size: 21px;
+        line-height: 33px;
+        margin-top: 33px;
+    }
+    .text-box-person-one, .text-box-person-two {
+        width: 254px;
+        height: 51px;
+        margin-top: 40px;
+    }
+    .text-box-person-one-image, .text-box-person-two-image {
+        width: 51px;
+        height: 51px;
+    }
+    .text-box-person-one-name, .text-box-person-two-name {
+        width: 186px;
+        height: 13px;
+        font-size: 19px;
+        line-height: 29px;
+        margin-top: 8px;
+    }
+    .text-box-person-one-image-back,.text-box-person-two-image-back{
+        width: 51px;
+        height: 51px;
+
+    }
+}
+
+
+@media (min-width: 3840px) {
+    .insight-background {
+        height: 100%;
+        padding: 5% 0 5% 5%;
+        margin-top: 10%;
+    }
+    .frame {
+        max-width: 828px;
+        height: 462px;
+        margin-top: 360px;
+    }
+    .blog {
+        width: 86px;
+        height: 50px;
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .explore-insight {
+        width: 676px;
+        height: 116px;
+        font-size: 72px;
+        line-height: 115px;
+    }
+    .insight-content {
+        width: 828px;
+        height: 72px;
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .navigation {
+        width: 184px;
+        height: 80px;
+        margin-top: 70px;
+    }
+    .left-round, .right-round {
+        width: 80px;
+        height: 80px;
+    }
+    .insight-card {
+        width: 2064px;
+        height: 1227.96px;
+    }
+    .insight-card-one, .insight-card-two {
+        width: 1008px;
+        height: 1227px;
+        margin-left: 40px;
+    }
+    .insight-card-one-inner, .insight-card-two-inner {
+        width: 864px;
+        height: 1082px;
+        margin: 70px;
+    }
+    .insight-image-one, .insight-image-two {
+        width: 864px;
+        height: 488px;
+    }
+    .text-box-outter {
+        width: 864px;
+        height: 524px;
+        margin-top: 30%;
+    }
+    .text-box-inner-head {
+        width: 192px;
+        height: 20px;
+    }
+    .head-text {
+        width: 192px;
+        height: 20px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .text-box-inner-date {
+        width: 350px;
+        height: 42px;
+        margin-top: 50px;
+    }
+    .text-box-inner-year, .text-box-inner-time {
+        width: 176px;
+        height: 42px;
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .text-box-inner-ellipse {
+        width: 8px;
+        height: 8px;
+        margin-top: 16px;
+    }
+    .text-box-content {
+        width: 864px;
+        height: 254px;
+        margin-top: 30px;
+    }
+    .text-box-content-title {
+        width: 864px;
+        height: 88px;
+        font-size: 44px;
+        line-height: 58px;
+    }
+    .text-box-content-sub-content {
+        width: 824px;
+        height: 122px;
+        font-size: 32px;
+        line-height: 50px;
+        margin-top: 50px;
+    }
+    .text-box-person-one, .text-box-person-two {
+        width: 354px;
+        height: 76px;
+        margin-top: 60px;
+    }
+    .text-box-person-one-image, .text-box-person-two-image {
+        width: 76px;
+        height: 76px;
+    }
+    .text-box-person-one-name, .text-box-person-two-name {
+        width: 280px;
+        height: 20px;
+        font-size: 28px;
+        line-height: 42px;
+        margin-top: 12px;
+    }
+
+    .text-box-person-one-image-back{
+       width: 76px;
+        height: 76px;
+   
+    }
+    .text-box-person-two-image-back{
+        width: 76px;
+         height: 76px;
+    
+     }
+
+}
+
+@media (min-width: 7680px) {
+    .insight-background {
+        height: 100%;
+        padding: 3% 0 3% 11%;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    .frame {
+        max-width: 1656px;
+        height: 924px;
+        margin-top: 720px;
+    }
+    .blog {
+        width: 172px;
+        height: 100px;
+        font-size: 48px;
+        line-height: 100px;
+    }
+    .explore-insight {
+        width: 1352px;
+        height: 232px;
+        font-size: 144px;
+        line-height: 230px;
+    }
+    .insight-content {
+        width: 1656px;
+        height: 144px;
+        font-size: 64px;
+        line-height: 100px;
+    }
+    .navigation {
+        width: 368px;
+        height: 160px;
+        margin-top: 140px;
+    }
+    .left-round, .right-round {
+        width: 160px;
+        height: 160px;
+    }
+
+
+
+    .insight-card {
+        width: 4128px;
+        height: 2455.92px;
+    }
+    .insight-card-one, .insight-card-two {
+        width: 2016px;
+        height: 2455px;
+        margin-left: 80px;
+    }
+    .insight-card-one-inner, .insight-card-two-inner {
+        width: 1728px;
+        height: 2164px;
+        margin: 140px;
+    }
+    .insight-image-one, .insight-image-two {
+        width: 1728px;
+        height: 976px;
+    }
+    .text-box-outter {
+        width: 1728px;
+        height: 1048px;
+        margin-top: 48%;
+    }
+    .text-box-inner-head {
+        width: 384px;
+        height: 40px;
+    }
+    .head-text {
+        width: 384px;
+        height: 40px;
+        font-size: 56px;
+        line-height: 84px;
+    }
+    .text-box-inner-date {
+        width: 700px;
+        height: 84px;
+        margin-top: 100px;
+    }
+    .text-box-inner-year, .text-box-inner-time {
+        width: 352px;
+        height: 84px;
+        font-size: 52px;
+        line-height: 84px;
+    }
+    .text-box-inner-ellipse {
+        width: 16px;
+        height: 16px;
+        margin-top: 32px;
+    }
+    .text-box-content {
+        width: 1728px;
+        height: 508px;
+        margin-top: 60px;
+    }
+    .text-box-content-title {
+        width: 1728px;
+        height: 176px;
+        font-size: 88px;
+        line-height: 116px;
+    }
+    .text-box-content-sub-content {
+        width: 1648px;
+        height: 244px;
+        font-size: 64px;
+        line-height: 100px;
+        margin-top: 100px;
+    }
+    .text-box-person-one, .text-box-person-two {
+        width: 708px;
+        height: 152px;
+        margin-top: 120px;
+    }
+    .text-box-person-one-image, .text-box-person-two-image {
+        width: 152px;
+        height: 152px;
+    }
+    .text-box-person-one-name, .text-box-person-two-name {
+        width: 560px;
+        height: 40px;
+        font-size: 56px;
+        line-height: 84px;
+        margin-top: 24px;
+    }
+    .text-box-person-one-image-back,.text-box-person-two-image-back{
+        width: 152px;
+        height: 152px;
+
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 2559px){
+    .insight-background {
+        height: 100%;
+        padding: 3% 0 3% 11%;
+
+        width: 100%;
+    }
+    .frame {
+        max-width: 552px;
+        height: 308px;
+        margin-top: 240px;
+        margin-right: 5%;
+    }
 }
