@@ -740,7 +740,7 @@ margin-top: 25px;
 
     }
     .insight-image-one{
-        max-width: 80%;
+        max-width: 79%;
         height: 100%;
     top: 36.02px;
     left: 36px;
@@ -751,7 +751,7 @@ margin-top: 25px;
     }
 
     .insight-image-two{
-        max-width: 78%;
+        max-width: 79%;
         height: 100%;
     top: 36.02px;
     left: 36px;
@@ -783,18 +783,19 @@ margin-top: 25px;
         margin-top: 6px;
     }
     .insight-card-two{
-        max-width: 100%;
-        height: auto;
-            top: 0.02px;
-            gap: 0px;
-            border-radius: 15px ;
-            border: 1px ;
-             opacity: 1;
-            background-color: #fff;
-            
+        width: 100%;
+    max-width: 504px;
+height: auto;
+    top: 0.02px;
+    gap: 0px;
+    border-radius: 15px ;
+    border: 1px ;
+     opacity: 1;
+    background-color: #fff;
+    justify-content: center;
 
-            border: 1px solid #C3CFE0;
-            margin-right: 40px;
+    border: 1px solid #C3CFE0;
+
         
         }
         .image-two{
@@ -855,7 +856,7 @@ margin-top: 25px;
         max-width: 100%;
         box-sizing: border-box; 
 overflow-x: hidden; 
-            padding: 120px 30px 119.02px 40px;
+            padding: 120px 40px 119.02px 100px;
       
     }
 
@@ -1005,7 +1006,7 @@ height: auto;
     border: 1px ;
      opacity: 1;
     background-color: #fff;
-    margin-right: 400px;
+
 
     border: 1px solid #C3CFE0;
         
