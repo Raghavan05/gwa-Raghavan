@@ -764,12 +764,12 @@ margin-top: 25px;
     background-size: cover;
     }
     .text-box-person-two{
-        width:200px;
+        width:  177px;
         height: auto;
     gap: 12px;
      opacity: 1;
     display: flex;
-        margin-top: 75px;
+    margin-top: 75px;
     
     }  
     .text-box-person-two-name{
@@ -787,17 +787,17 @@ margin-top: 25px;
     }
     .insight-card-two{
         width: 100%;
-    max-width: 504px;
-height: auto;
-    top: 0.02px;
-    gap: 0px;
-    border-radius: 15px ;
-    border: 1px ;
-     opacity: 1;
-    background-color: #fff;
-    justify-content: center;
-
-    border: 1px solid #C3CFE0;
+        max-width: 504px;
+    height: auto;
+        top: 0.02px;
+        gap: 0px;
+        border-radius: 15px ;
+        border: 1px ;
+         opacity: 1;
+        background-color: #fff;
+        justify-content: center;
+    
+        border: 1px solid #C3CFE0;
 
         
         }
@@ -1145,7 +1145,7 @@ margin-top: 25px;
     }
 
     .insight-image-two{
-        max-width: 82%;
+        max-width: 85%;
         height: 100%;
     top: 36.02px;
     left: 36px;
@@ -1178,17 +1178,17 @@ margin-top: 25px;
     }
     .insight-card-two{
         width: 100%;
-    max-width: 504px;
-height: auto;
-    top: 0.02px;
-    gap: 0px;
-    border-radius: 15px ;
-    border: 1px ;
-     opacity: 1;
-    background-color: #fff;
-    justify-content: center;
-
-    border: 1px solid #C3CFE0;
+        max-width: 504px;
+    height: auto;
+        top: 0.02px;
+        gap: 0px;
+        border-radius: 15px ;
+        border: 1px ;
+         opacity: 1;
+        background-color: #fff;
+        justify-content: center;
+    
+        border: 1px solid #C3CFE0;
 
         
         }
@@ -1589,7 +1589,7 @@ opacity: 1;;
     }
 
     .insight-image-two{
-        max-width: 78%;
+        max-width: 85%;
         height: 100%;
     top: 36.02px;
     left: 36px;
@@ -1621,8 +1621,8 @@ opacity: 1;;
         margin-top: 6px;
     }
     .insight-card-two{
-        width: 70%;
-        max-width: 404px;
+        width: 100%;
+        max-width: 450px;
     height: auto;
         top: 0.02px;
         gap: 0px;
@@ -1630,7 +1630,8 @@ opacity: 1;;
         border: 1px ;
          opacity: 1;
         background-color: #fff;
-        margin-right: 400px;
+    
+        justify-content: center;
     
         border: 1px solid #C3CFE0;
         }
