@@ -12,7 +12,7 @@ function Insights() {
             const screenWidth = window.innerWidth;
             if (screenWidth < 820) {
                 setVisibleCards([0]);
-            } else if (screenWidth >= 820 && screenWidth <= 1040) {
+            } else if (screenWidth >= 820 && screenWidth <= 1350) {
                 setVisibleCards([0]); 
             } else {
                 setVisibleCards([0, 1]); 
