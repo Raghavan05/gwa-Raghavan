@@ -1268,14 +1268,10 @@ justify-content: center;
     .frame{
         margin-top: 30px;
         }
-        .text-box-person-one{
+        .text-box-person-one,.text-box-person-two{
             margin-top: 50px;
         }  
-        .text-box-person-one{
-            margin-top: 50px;
-        
-        }  
-
+      
 
 }
 @media (min-width: 768px) and (max-width: 911px) {
@@ -1310,14 +1306,10 @@ justify-content: center;
     .frame{
         margin-top: 30px;
         }
-        .text-box-person-one{
+        .text-box-person-one,.text-box-person-two{
             margin-top: 50px;
         }  
-        .text-box-person-one{
-            margin-top: 50px;
-        
-        }  
-
+    
 
 
 }
@@ -1600,11 +1592,11 @@ opacity: 1;;
     }
     .text-box-person-two{
         width:200px;
-        height: auto;
-    gap: 12px;
-     opacity: 1;
-    display: flex;
-    margin-top: 90px;
+            height: auto;
+        gap: 12px;
+         opacity: 1;
+        display: flex;
+        margin-top: 70px;
     
     }  
     .text-box-person-two-name{
