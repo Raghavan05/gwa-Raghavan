@@ -13,6 +13,7 @@ import largebar from './assests/img/largebar.png'
 import xImage from './assests/img/x-image.png'
 import './assests/MiddlePart.css'
 import { Card } from 'react-bootstrap'
+import MidPartTwo from './MidPartTwo'
 
 
 
@@ -163,6 +164,7 @@ const MiddlePart = () => {
         </div>
       </div>
     </div>
+    <MidPartTwo/>
     </>
   )
 }
