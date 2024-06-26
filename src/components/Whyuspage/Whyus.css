@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Matter:wght@400;700&display=swap');
+
+.background{
+    padding: 50px;
+    background: linear-gradient(180deg, #E4EDFF -2.3%, rgba(253, 254, 255, 0.0763343) 50.99%, rgba(255, 255, 255, 0) 80.46%);
+
+}
+.lorem{
+    text-align: center;
+    font-family: Matter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0167FF;
+  }
+
+  .why{
+    font-family: Matter, sans-serif;
+    font-size: 46px;
+    color: #272848;
+    font-weight: 600;
+    text-align: center;
+  }
+.h2{
+    color: #0167FF;
+    font-family: Matter, sans-serif;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+  }
+  
+  .grid-item {
+    border:none;
+    border-radius: 9px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 1rem;
+    background: transparent; 
+    
+
+
+  }
+
+  .grid-item:hover {
+    border: 1px solid #0167FF;
+    background: #F4F7FC;
+    transition: none;
+
+  }
+  
+  .grid-item h2 {
+    font-family: Matter, sans-serif;
+
+    color: #0167FF;
+  }
+  
+  .grid-item p {
+    color:#52525B;
+    font-family: Matter, sans-serif;
+    line-height: 28px;
+    font-size: 17px;
+  }
+  
+  .grid-item img{
+    width:86px;
+    height:68px;
+  } 
