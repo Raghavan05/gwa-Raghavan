@@ -99,9 +99,6 @@ body{
     opacity: 1;
     z-index: 1;
 }
-.col-first{
-    
-}
 .reveal {
     opacity: 0 !important;
     transform: translate(5%, -15%) !important;
