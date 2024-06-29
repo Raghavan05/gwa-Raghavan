@@ -13,6 +13,7 @@
     "bootstrap": "^4.6.1",
     "bootstrap-icons": "^1.11.3",
     "country-list": "^2.3.0",
+    "gh-pages": "^6.1.1",
     "i18n-iso-countries": "^7.11.2",
     "jquery": "^3.7.1",
     "latest": "^0.2.0",
@@ -29,8 +30,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy" :"npm run build",
-    "deploy" :"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
