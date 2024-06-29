@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/gwa-Raghavan/static/css/main.48c0f6b7.css",
+    "main.js": "/gwa-Raghavan/static/js/main.818da853.js",
+    "static/js/453.0ebcca8c.chunk.js": "/gwa-Raghavan/static/js/453.0ebcca8c.chunk.js",
+    "static/media/gwa-trailer.mp4": "/gwa-Raghavan/static/media/gwa-trailer.336ac15ab9feb342c476.mp4",
+    "static/media/doctorImage.png": "/gwa-Raghavan/static/media/doctorImage.f841d300afb71ab59efb.png",
+    "static/media/insightpersontwo.jpeg": "/gwa-Raghavan/static/media/insightpersontwo.0fb595dcb9ca66cbf200.jpeg",
+    "static/media/maledoc3.png": "/gwa-Raghavan/static/media/maledoc3.89041de2e67227d12d00.png",
+    "static/media/femaledoc3.png": "/gwa-Raghavan/static/media/femaledoc3.54dc4800cb8ec620139f.png",
+    "static/media/image-48.png": "/gwa-Raghavan/static/media/image-48.467f64664d281589fcd8.png",
+    "static/media/insightpersonone.png": "/gwa-Raghavan/static/media/insightpersonone.7396dd0dd95669c3e4e5.png",
+    "static/media/Matter-Medium.ttf": "/gwa-Raghavan/static/media/Matter-Medium.5cd576064deda51d0af3.ttf",
+    "static/media/Matter-SemiBold.ttf": "/gwa-Raghavan/static/media/Matter-SemiBold.23ccc927940fa5b0372e.ttf",
+    "static/media/Matter-Regular.ttf": "/gwa-Raghavan/static/media/Matter-Regular.de03f71769e8f47f3dd1.ttf",
+    "static/media/Matter-Bold.ttf": "/gwa-Raghavan/static/media/Matter-Bold.250ea76b4bfc0bcedffe.ttf",
+    "static/media/x-image.png": "/gwa-Raghavan/static/media/x-image.d8eabc16137f36fc3f91.png",
+    "static/media/brand-logo.png": "/gwa-Raghavan/static/media/brand-logo.64041f28e2b3c5bfd7f1.png",
+    "static/media/dwon.gif": "/gwa-Raghavan/static/media/dwon.883753017ab31dc049ca.gif",
+    "static/media/Ellipse-29.png": "/gwa-Raghavan/static/media/Ellipse-29.75d0301ca340c92d461e.png",
+    "static/media/doctor-profile-2.png": "/gwa-Raghavan/static/media/doctor-profile-2.2248e2dfc5e18f5c0c1b.png",
+    "static/media/doctor-profile-4.png": "/gwa-Raghavan/static/media/doctor-profile-4.fd9f95aceb148e7e8f7e.png",
+    "static/media/insight2.jpg": "/gwa-Raghavan/static/media/insight2.7e608a93bc25db632d5c.jpg",
+    "static/media/Ellipse-30.png": "/gwa-Raghavan/static/media/Ellipse-30.cbe384b0f563ee68b202.png",
+    "static/media/insight1.jpg": "/gwa-Raghavan/static/media/insight1.4a4e2c0eeac37cdcfd06.jpg",
+    "static/media/slick.svg": "/gwa-Raghavan/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/gwa-Raghavan/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/gwa-Raghavan/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/gwa-Raghavan/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/gwa-Raghavan/index.html",
+    "main.48c0f6b7.css.map": "/gwa-Raghavan/static/css/main.48c0f6b7.css.map",
+    "main.818da853.js.map": "/gwa-Raghavan/static/js/main.818da853.js.map",
+    "453.0ebcca8c.chunk.js.map": "/gwa-Raghavan/static/js/453.0ebcca8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48c0f6b7.css",
+    "static/js/main.818da853.js"
+  ]
+}
