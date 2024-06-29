@@ -52,7 +52,7 @@ const MiddlePart = () => {
       </div>
       <div className='container mid-container'>
         <div className="row mt-5 d-flex flex-column-reverse flex-md-row">
-          <div className="col-12 col-md-5 col-first mt-5 pt-lg-5">
+          <div className="col-12 col-md-6 col-first mt-5 pt-lg-5">
             <div className="heading">LOREM ISPUM</div>
             <div className="main-heading">Find Your Ideal Provider</div>
             <div className="description">Whether you're seeking traditional medical advice or exploring modern and holistic treatment options, our directory connects you with healthcare providers who specialize in your specific condition or area of concern. From local specialists to top-rated clinics, find the right provider near you with ease.</div>
@@ -72,7 +72,7 @@ const MiddlePart = () => {
             </div>
           </div>
           <div className="col-md-1"></div>
-          <div className="col-12 col-md-6">
+          <div className="col-6 col-md-5">
             <div className=' d-flex flex-row justify-content-end'>
               <div className="overlay-container">
                 <img
@@ -112,8 +112,8 @@ const MiddlePart = () => {
             </div>
           </div>
         </div>
-        <div className="row mt-5">
-          <div className="col-12 col-md-6 mt-5 d-flex flex-row justify-content-center align-items-center">
+        <div className="row midSecondRow">
+          <div className="col-12 col-md-5 mt-5 d-flex flex-row justify-content-start">
             <div className="overlay-container-2">
               <img
                 src={femaledoc3}
@@ -121,7 +121,7 @@ const MiddlePart = () => {
                 className="overlay-image-2"
               />
             </div>
-            <div className="reveal-2 reveal-card-2" >
+            <div className="reveal-2 reveal-card-2 " >
               <Card className="reveal-profile-card card-3">
                 <Card.Body>
                   <Card.Title className="card-title-2">
@@ -141,7 +141,7 @@ const MiddlePart = () => {
             </div>
           </div>
           <div className="col-md-1"></div>
-          <div className="col-12 col-md-5 col-second mt-5 pt-lg-5 ">
+          <div className="col-12 col-md-6 col-second mt-5 pt-lg-5 d-flex flex-column justify-content-center">
             <div className="heading">LOREM ISPUM</div>
             <div className="main-heading">Own Your Health</div>
             <div className="description">Dive into the healthcare scene and check out detailed profiles of providers, their specialties, blog posts, which insurance they accept, and their affiliated hospitals. It's more than just finding any provider; it's about finding the right one who really gets your health needs.</div>

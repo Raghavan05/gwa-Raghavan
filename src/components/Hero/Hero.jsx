@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 import './hero.css'; 
 import Navbar from '../Navbar/Navbar';
-import map from '../Assets/map.png';
 import doctorImage from '../Assets/doctorImage.png';
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
@@ -38,10 +37,10 @@ const Hero = () => {
 
     return (
         <>  
-           <div className='hero-head'>
+           <div className='hero-head container-fluid'>
                 <Navbar/>
-                <div className='hero-content'>
-                    <div className='hero-item'>
+                <div className='row hero-content align-items-center'>
+                <div className="col-6 hero-item">
                         <h5>CERTIFIED DOCTORS</h5>
                         <h1 className="hero-title">We Find <span>Best Doctors</span> <br /> Based On Your Condition</h1>
                         <div className='search-box'>
@@ -72,15 +71,17 @@ const Hero = () => {
 
 
 
-
-
-                    <div className='text-center'>
-                      <img src={map} className='map-image' alt="Map"/> 
-                    </div>
-
-                    <div className='image-division'>
+                    <div className="col-6 text-center">
+                      <div className='image-division'>
+                            <div class="ecg-container">
+                                <svg viewBox="0 0 100 50" class="ecg-line">
+                                    <polyline class="outline" points="0,25 10,25 15,13 20,35 25,25 33,25 40,7 47,40 53,25 65,25 68,15 74,35 80,25 95,25" />
+                                    <polyline class="line" points="0,25 10,25 15,13 20,35 25,25 33,25 40,7 47,40 53,25 65,25 68,15 74,35 80,25 100,25" />
+                                </svg>
+                            </div>
                         <img src={doctorImage} alt="Doctors" className="hero-image"/>
                         <div className="layout"></div> 
+                    </div> 
                     </div>
                 </div>
            </div> 

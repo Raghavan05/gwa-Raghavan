@@ -99,15 +99,24 @@ body{
     opacity: 1;
     z-index: 1;
 }
+/* .mid-container{
+    max-width: 2000px !important;
+} */
+.midSecondRow{
+    margin-top: 10rem;
+}
+/* .col-first{
+    padding: 0 !important;
+} */
 .reveal {
     opacity: 0 !important;
-    transform: translate(5%, -15%) !important;
+    transform: translate(-5%, -15%) !important;
     transition: opacity 1s, transform 1.2s ease !important;
 }
 
 .reveal_visible {
     opacity: 1 !important;
-    transform: translate(5%, -135%) !important;
+    transform: translate(-5%, -105%) !important;
 }
 
 .reveal-card {
@@ -129,7 +138,7 @@ body{
 
 .reveal_visible-2 {
     opacity: 1 !important;
-    transform: translate(25%, 110%) !important;
+    transform: translate(25%, 150%) !important;
 }
 
 .reveal-card-2 {
@@ -146,7 +155,7 @@ body{
     background: white;
     border: 1px solid #ffffff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 16px;
+    border-radius: 16px !important;
     opacity: 0;
     animation: fadeInCard 0.3s ease-in-out forwards;
 }
@@ -158,7 +167,7 @@ body{
     animation: swipeUpCard 0.6s ease-in-out forwards;
     animation-delay: 3s;
     z-index: 1;
-    border-radius: 0 20px 0 20px;
+    border-radius: 0 20px 0 20px !important; 
     padding: 0px 10px;
 }
 
@@ -411,7 +420,7 @@ body{
     margin-left: 10px;
 }
 
-@media (min-width : 541px) and (max-width: 1024px) {
+@media (min-width : 541px) and (max-width: 1023px) {
     .overlay-image {
         width: 40vw;
         height: auto;
@@ -607,30 +616,31 @@ body{
     }
 
 }
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1439px) {
     .reveal {
         opacity: 0 !important;
-        transform: translate(-9%, -15%) !important;
+        transform: translate(-13%, -15%) !important;
         transition: opacity 1s, transform 1.2s ease !important;
     }
     
     .reveal_visible {
         opacity: 1 !important;
-        transform: translate(-9%, -135%) !important;
+        transform: translate(-13%, -135%) !important;
     }
     
     .reveal-2 {
         opacity: 0 !important;
-        transform: translate(45%, 210%) !important;
+        transform: translate(55%, 300%) !important;
         transition: opacity 1s, transform 1.2s ease !important;
     }
 
     .reveal_visible-2 {
         opacity: 1 !important;
-        transform: translate(45%, 160%) !important;
+        transform: translate(55%, 180%) !important;
     }
     .col-second{
         padding-top: 6rem !important;
+        padding-left: 6rem !important;
     }
 }
 
